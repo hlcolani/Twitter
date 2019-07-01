@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/64d72525dc8ad87696b2fea67660ad45/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aac3c7a36d94da9f90be22c244be41b4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4e262dbd4aa58c44d9a4b5402852e049/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/906309e2b36488a0bde5cadc883ce3e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/54ccf91f5d58f46f6fd39213964b8912/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/42cd476ee8f59b07a80edfafd554a655/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d66f2b41fdd50e2b200298b48cacae6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/843b0f09c659a0c67d68ca854ed09f18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/78306884f4e9a2e507c67a195194af6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/df2e4a07348f36fb2be49ecfc96b1f2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/421e8785c5e2ae14b5d10cb7e57f1fd6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/bb63d1ee5401b62514394293229da2c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/34974e2132cf8eb993a9e2acfee8c157/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d764aea63f69a201649fa4c4701161ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/f7ac3df73403133f3cb5ea6d5dd2af43/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/e74e003bbe0f9df4875c584aebacd055/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d47c34af276096172b5b9e46a713523b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/63419d3d75fc3eb88d239a8503c8d14d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/acea39923ad91f0c52650ee5b1db5117/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aa49dfef6208b58a502e93488f675155/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/a93bff132049da2f00360562e2f1cf29/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/09adbccb866ba09dea2d2a253d0dd22a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/7f4207c0ab8c463094b7f16fee1254ec/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/b6005cec5858b1ef6136ad2bb39d9801/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/8e7de5fbe85147f4de515d9441c23c27/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/19709ba3d4115d5aa33d62582182c30d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/ac4239edda1f7c890625baa8268ee7e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/c1d32cf2eaab4cc7025278df4909d369/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/857f2fc0d78e66d44af896685bc3b58d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4ee76312aabe34714e86cddd106c89b2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/348f75fdabb48d4d203cabeb3f60cab1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4428e7f4c884c7375ca72383ede9dbf3/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/acea39923ad91f0c52650ee5b1db5117/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/acea39923ad91f0c52650ee5b1db5117/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aa49dfef6208b58a502e93488f675155/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aa49dfef6208b58a502e93488f675155/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/acea39923ad91f0c52650ee5b1db5117/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:18:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/64d72525dc8ad87696b2fea67660ad45/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/64d72525dc8ad87696b2fea67660ad45/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aac3c7a36d94da9f90be22c244be41b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aac3c7a36d94da9f90be22c244be41b4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4e262dbd4aa58c44d9a4b5402852e049/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4e262dbd4aa58c44d9a4b5402852e049/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/906309e2b36488a0bde5cadc883ce3e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/906309e2b36488a0bde5cadc883ce3e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/54ccf91f5d58f46f6fd39213964b8912/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/54ccf91f5d58f46f6fd39213964b8912/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/42cd476ee8f59b07a80edfafd554a655/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/42cd476ee8f59b07a80edfafd554a655/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d66f2b41fdd50e2b200298b48cacae6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d66f2b41fdd50e2b200298b48cacae6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/843b0f09c659a0c67d68ca854ed09f18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/843b0f09c659a0c67d68ca854ed09f18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/78306884f4e9a2e507c67a195194af6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/78306884f4e9a2e507c67a195194af6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/df2e4a07348f36fb2be49ecfc96b1f2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/df2e4a07348f36fb2be49ecfc96b1f2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/421e8785c5e2ae14b5d10cb7e57f1fd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/421e8785c5e2ae14b5d10cb7e57f1fd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/bb63d1ee5401b62514394293229da2c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/bb63d1ee5401b62514394293229da2c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/34974e2132cf8eb993a9e2acfee8c157/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/34974e2132cf8eb993a9e2acfee8c157/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d764aea63f69a201649fa4c4701161ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d764aea63f69a201649fa4c4701161ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/f7ac3df73403133f3cb5ea6d5dd2af43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/f7ac3df73403133f3cb5ea6d5dd2af43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/e74e003bbe0f9df4875c584aebacd055/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/e74e003bbe0f9df4875c584aebacd055/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d47c34af276096172b5b9e46a713523b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d47c34af276096172b5b9e46a713523b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/63419d3d75fc3eb88d239a8503c8d14d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/63419d3d75fc3eb88d239a8503c8d14d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/acea39923ad91f0c52650ee5b1db5117/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/acea39923ad91f0c52650ee5b1db5117/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aa49dfef6208b58a502e93488f675155/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aa49dfef6208b58a502e93488f675155/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/a93bff132049da2f00360562e2f1cf29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/a93bff132049da2f00360562e2f1cf29/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/09adbccb866ba09dea2d2a253d0dd22a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/09adbccb866ba09dea2d2a253d0dd22a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/7f4207c0ab8c463094b7f16fee1254ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/7f4207c0ab8c463094b7f16fee1254ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/b6005cec5858b1ef6136ad2bb39d9801/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/b6005cec5858b1ef6136ad2bb39d9801/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/8e7de5fbe85147f4de515d9441c23c27/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/8e7de5fbe85147f4de515d9441c23c27/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/19709ba3d4115d5aa33d62582182c30d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/19709ba3d4115d5aa33d62582182c30d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/ac4239edda1f7c890625baa8268ee7e2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/ac4239edda1f7c890625baa8268ee7e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/c1d32cf2eaab4cc7025278df4909d369/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/c1d32cf2eaab4cc7025278df4909d369/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/857f2fc0d78e66d44af896685bc3b58d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/857f2fc0d78e66d44af896685bc3b58d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4ee76312aabe34714e86cddd106c89b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4ee76312aabe34714e86cddd106c89b2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/348f75fdabb48d4d203cabeb3f60cab1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/348f75fdabb48d4d203cabeb3f60cab1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4428e7f4c884c7375ca72383ede9dbf3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4428e7f4c884c7375ca72383ede9dbf3/AndroidManifest.xml:20:5-44
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/AndroidManifest.xml
