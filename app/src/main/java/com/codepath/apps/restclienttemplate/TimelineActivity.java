@@ -64,10 +64,16 @@ public class TimelineActivity extends AppCompatActivity {
             client.sendTweet(tweetText, new JsonHttpResponseHandler(){
                 @Override
                 public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                    Log.d("TwitterClient", response.toString());
+                    try {
+                        tweets.add(0, Tweet.fromJSON(response));
+                        tweetAdapter.notifyItemInserted(0);
+                        rvTweets.scrollToPosition(0);
+                        Log.d("TwitterClient", response.toString());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
             });
-            populateTimeline();
         }
     }
 
