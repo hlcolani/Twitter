@@ -815,6 +815,7 @@ id title_template
 id top
 id topPanel
 id tvBody
+id tvCounter
 id tvTimestamp
 id tvTweetInput
 id tvUserName
