@@ -15,8 +15,8 @@ The following **required** functionality is completed:
 * [x] User can **compose and post a new tweet**
   * [x] User can click a “Compose” icon in the Action Bar on the top right
   * [x] User can then enter a new tweet and post this to twitter
-  * [ ] User is taken back to home timeline with **new tweet visible** in timeline
-  * [ ] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  * [x] User is taken back to home timeline with **new tweet visible** in timeline
+  * [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
 
 The following **stretch** features are implemented:
 
