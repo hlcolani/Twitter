@@ -7,6 +7,7 @@ INJECTED from /Users/hannahcole/AndroidStudioProjects/Twitter/app/src/main/Andro
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/64d72525dc8ad87696b2fea67660ad45/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aac3c7a36d94da9f90be22c244be41b4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4e262dbd4aa58c44d9a4b5402852e049/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d75d515417294b40b84739d49e2118a6/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/382a28ace9c7dca548ea3450459f366f/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/44db6bf09b76b8e742276db3d57f4300/AndroidManifest.xml:17:1-22:12
@@ -140,6 +141,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hannahcole/.gradle/
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/aac3c7a36d94da9f90be22c244be41b4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4e262dbd4aa58c44d9a4b5402852e049/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/4e262dbd4aa58c44d9a4b5402852e049/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d75d515417294b40b84739d49e2118a6/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/d75d515417294b40b84739d49e2118a6/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/382a28ace9c7dca548ea3450459f366f/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/382a28ace9c7dca548ea3450459f366f/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/hannahcole/.gradle/caches/transforms-2/files-2.1/6f8c7581be8089e3628715ee2ce096fa/AndroidManifest.xml:7:5-9:41
