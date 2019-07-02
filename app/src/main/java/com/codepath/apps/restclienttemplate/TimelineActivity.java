@@ -48,8 +48,27 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     public void onComposeAction(MenuItem mi) {
+        final int REQUEST_CODE = 20;
         Intent i = new Intent(this, ComposeActivity.class);
-        startActivity(i);
+        startActivityForResult(i, REQUEST_CODE);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // REQUEST_CODE is defined above
+        if (resultCode == RESULT_OK) {
+            // Extract name value from result extras
+            String tweetText = data.getExtras().getString("tweet");
+            int code = data.getExtras().getInt("code", 0);
+            // Toast the name to display temporarily on screen
+            client.sendTweet(tweetText, new JsonHttpResponseHandler(){
+                @Override
+                public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                    Log.d("TwitterClient", response.toString());
+                }
+            });
+            populateTimeline();
+        }
     }
 
     private void populateTimeline() {
