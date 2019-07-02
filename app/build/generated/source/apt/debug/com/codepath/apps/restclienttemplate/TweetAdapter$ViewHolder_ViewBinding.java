@@ -21,6 +21,7 @@ public class TweetAdapter$ViewHolder_ViewBinding<T extends TweetAdapter.ViewHold
     target.ivProfileImage = Utils.findOptionalViewAsType(source, R.id.ivProfileImage, "field 'ivProfileImage'", ImageView.class);
     target.tvUserName = Utils.findRequiredViewAsType(source, R.id.tvUserName, "field 'tvUserName'", TextView.class);
     target.tvBody = Utils.findRequiredViewAsType(source, R.id.tvBody, "field 'tvBody'", TextView.class);
+    target.tvTimestamp = Utils.findRequiredViewAsType(source, R.id.tvTimestamp, "field 'tvTimestamp'", TextView.class);
   }
 
   @Override
@@ -32,6 +33,7 @@ public class TweetAdapter$ViewHolder_ViewBinding<T extends TweetAdapter.ViewHold
     target.ivProfileImage = null;
     target.tvUserName = null;
     target.tvBody = null;
+    target.tvTimestamp = null;
 
     this.target = null;
   }
