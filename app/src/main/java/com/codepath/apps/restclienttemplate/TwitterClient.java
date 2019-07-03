@@ -51,6 +51,15 @@ public class TwitterClient extends OAuthBaseClient {
 		client.get(apiUrl, params, handler);
 	}
 
+	public void getMoreTweets(AsyncHttpResponseHandler handler, int pageNumber) {
+		String apiUrl = getApiUrl("statuses/home_timeline.json");
+		// Can specify query string params directly or through RequestParams.
+		RequestParams params = new RequestParams();
+		params.put("count" , 25);
+		params.put("since_id" , (pageNumber * 25) + 1);
+		client.get(apiUrl, params, handler);
+	}
+
 	public void sendTweet(String message, AsyncHttpResponseHandler handler) {
 		String apiUrl = getApiUrl("statuses/update.json");
 		// Can specify query string params directly or through RequestParams.
@@ -70,6 +79,15 @@ public class TwitterClient extends OAuthBaseClient {
 
 	public void favorite(long id, AsyncHttpResponseHandler handler) {
 		String urlString = "favorites/create.json";
+		String apiUrl = getApiUrl(urlString);
+		// Can specify query string params directly or through RequestParams.
+		RequestParams params = new RequestParams();
+		params.put("id", id);
+		client.post(apiUrl, params, handler);
+	}
+
+	public void unFavorite(long id, AsyncHttpResponseHandler handler) {
+		String urlString = "favorites/destroy.json";
 		String apiUrl = getApiUrl(urlString);
 		// Can specify query string params directly or through RequestParams.
 		RequestParams params = new RequestParams();

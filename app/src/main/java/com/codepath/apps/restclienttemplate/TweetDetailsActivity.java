@@ -75,12 +75,21 @@ public class TweetDetailsActivity extends AppCompatActivity {
         btnFavorite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                client.favorite(tweet.uid, new JsonHttpResponseHandler(){
-                    @Override
-                    public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                        btnFavorite.setText("X");
-                    }
-                });
+                if (btnFavorite.getText().equals("X")) {
+                    client.unFavorite(tweet.uid, new JsonHttpResponseHandler() {
+                        @Override
+                        public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                            btnFavorite.setText("");
+                        }
+                    });
+                } else {
+                    client.favorite(tweet.uid, new JsonHttpResponseHandler() {
+                        @Override
+                        public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                            btnFavorite.setText("X");
+                        }
+                    });
+                }
             }
         });
     }
