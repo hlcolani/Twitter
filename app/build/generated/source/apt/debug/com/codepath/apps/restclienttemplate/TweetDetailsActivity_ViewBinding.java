@@ -4,6 +4,7 @@ package com.codepath.apps.restclienttemplate;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import butterknife.Unbinder;
@@ -22,6 +23,8 @@ public class TweetDetailsActivity_ViewBinding<T extends TweetDetailsActivity> im
     target.tvUserName = Utils.findRequiredViewAsType(source, R.id.tvUserName, "field 'tvUserName'", TextView.class);
     target.tvBody = Utils.findRequiredViewAsType(source, R.id.tvBody, "field 'tvBody'", TextView.class);
     target.tvTimestamp = Utils.findRequiredViewAsType(source, R.id.tvTimestamp, "field 'tvTimestamp'", TextView.class);
+    target.btnRetweet = Utils.findRequiredViewAsType(source, R.id.btnRetweet, "field 'btnRetweet'", Button.class);
+    target.btnFavorite = Utils.findRequiredViewAsType(source, R.id.btnFavorite, "field 'btnFavorite'", Button.class);
   }
 
   @Override
@@ -34,6 +37,8 @@ public class TweetDetailsActivity_ViewBinding<T extends TweetDetailsActivity> im
     target.tvUserName = null;
     target.tvBody = null;
     target.tvTimestamp = null;
+    target.btnRetweet = null;
+    target.btnFavorite = null;
 
     this.target = null;
   }

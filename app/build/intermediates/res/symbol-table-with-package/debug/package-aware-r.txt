@@ -649,6 +649,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_launcher
 drawable ic_vector_compose
+drawable ic_vector_heart
+drawable ic_vector_retweet
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -698,6 +700,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnFavorite
+id btnRetweet
 id btnTweet
 id buttonPanel
 id cancel_action
@@ -926,6 +930,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string btn_tweet_text
+string compose
 string input_tweet_hint
 string intent_host
 string intent_scheme
