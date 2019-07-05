@@ -8,13 +8,14 @@
 
     <EditText
         android:id="@+id/tvTweetInput"
-        android:layout_width="346dp"
-        android:layout_height="463dp"
+        android:layout_width="359dp"
+        android:layout_height="419dp"
         android:layout_marginTop="46dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="8dp"
+        android:gravity="fill_horizontal"
         android:hint="@string/input_tweet_hint"
-        android:inputType="text"
+        android:inputType="textMultiLine"
         app:layout_constraintBottom_toTopOf="@+id/btnTweet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
