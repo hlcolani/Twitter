@@ -76,6 +76,7 @@ public class TimelineActivity extends AppCompatActivity {
         //  --> Deserialize and construct new model objects from the API response
         //  --> Append the new data objects to the existing set of items inside the array of items
         //  --> Notify the adapter of the new items made with `notifyItemRangeInserted()`
+        long lastTweet = tweets.get(tweets.size() - 1).uid;
         client.getMoreTweets(new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
@@ -96,7 +97,7 @@ public class TimelineActivity extends AppCompatActivity {
                 }
                 swipeContainer.setRefreshing(false);
             }
-    }, offset);
+    }, lastTweet);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
