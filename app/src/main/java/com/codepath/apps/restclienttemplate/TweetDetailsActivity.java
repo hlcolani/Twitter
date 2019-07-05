@@ -64,11 +64,17 @@ public class TweetDetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 client.retweet(tweet.uid, new JsonHttpResponseHandler(){
-                    @Override
-                    public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                        btnRetweet.setText("X");
+                        @Override
+                        public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                            btnRetweet.setText("X");
+                        }
+
+                        @Override
+                        public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                            super.onFailure(statusCode, headers, throwable, errorResponse);
+                        }
                     }
-                });
+                );
             }
         });
 
@@ -80,6 +86,11 @@ public class TweetDetailsActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                             btnFavorite.setText("");
+                        }
+
+                        @Override
+                        public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                            super.onFailure(statusCode, headers, throwable, errorResponse);
                         }
                     });
                 } else {
