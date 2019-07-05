@@ -431,7 +431,7 @@ public final class R {
         public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f060050;
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f060051;
         public static final int abc_textfield_search_material = 0x7f060052;
-        public static final int notification_template_icon_bg = 0x7f060060;
+        public static final int notification_template_icon_bg = 0x7f060061;
     }
     public static final class id {
         private id() {}
@@ -522,10 +522,10 @@ public final class R {
         public static final int title = 0x7f070097;
         public static final int title_template = 0x7f070099;
         public static final int topPanel = 0x7f07009b;
-        public static final int up = 0x7f0700a2;
-        public static final int useLogo = 0x7f0700a3;
-        public static final int withText = 0x7f0700a4;
-        public static final int wrap_content = 0x7f0700a6;
+        public static final int up = 0x7f0700a3;
+        public static final int useLogo = 0x7f0700a4;
+        public static final int withText = 0x7f0700a5;
+        public static final int wrap_content = 0x7f0700a7;
     }
     public static final class integer {
         private integer() {}

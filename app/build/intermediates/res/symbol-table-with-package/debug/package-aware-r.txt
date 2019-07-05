@@ -650,6 +650,7 @@ drawable abc_vector_test
 drawable ic_launcher
 drawable ic_vector_compose
 drawable ic_vector_heart
+drawable ic_vector_messages
 drawable ic_vector_retweet
 drawable notification_action_background
 drawable notification_bg
@@ -825,6 +826,7 @@ id tvBody
 id tvCounter
 id tvTimestamp
 id tvTweetInput
+id tvUser
 id tvUserName
 id uniform
 id up

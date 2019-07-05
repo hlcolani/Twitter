@@ -3022,21 +3022,22 @@ public final class R {
     public static final int ic_launcher=0x7f060054;
     public static final int ic_vector_compose=0x7f060055;
     public static final int ic_vector_heart=0x7f060056;
-    public static final int ic_vector_retweet=0x7f060057;
-    public static final int notification_action_background=0x7f060058;
-    public static final int notification_bg=0x7f060059;
-    public static final int notification_bg_low=0x7f06005a;
-    public static final int notification_bg_low_normal=0x7f06005b;
-    public static final int notification_bg_low_pressed=0x7f06005c;
-    public static final int notification_bg_normal=0x7f06005d;
-    public static final int notification_bg_normal_pressed=0x7f06005e;
-    public static final int notification_icon_background=0x7f06005f;
-    public static final int notification_template_icon_bg=0x7f060060;
-    public static final int notification_template_icon_low_bg=0x7f060061;
-    public static final int notification_tile_bg=0x7f060062;
-    public static final int notify_panel_notification_icon_bg=0x7f060063;
-    public static final int tooltip_frame_dark=0x7f060064;
-    public static final int tooltip_frame_light=0x7f060065;
+    public static final int ic_vector_messages=0x7f060057;
+    public static final int ic_vector_retweet=0x7f060058;
+    public static final int notification_action_background=0x7f060059;
+    public static final int notification_bg=0x7f06005a;
+    public static final int notification_bg_low=0x7f06005b;
+    public static final int notification_bg_low_normal=0x7f06005c;
+    public static final int notification_bg_low_pressed=0x7f06005d;
+    public static final int notification_bg_normal=0x7f06005e;
+    public static final int notification_bg_normal_pressed=0x7f06005f;
+    public static final int notification_icon_background=0x7f060060;
+    public static final int notification_template_icon_bg=0x7f060061;
+    public static final int notification_template_icon_low_bg=0x7f060062;
+    public static final int notification_tile_bg=0x7f060063;
+    public static final int notify_panel_notification_icon_bg=0x7f060064;
+    public static final int tooltip_frame_dark=0x7f060065;
+    public static final int tooltip_frame_light=0x7f060066;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3199,13 +3200,14 @@ public final class R {
     public static final int tvCounter=0x7f07009d;
     public static final int tvTimestamp=0x7f07009e;
     public static final int tvTweetInput=0x7f07009f;
-    public static final int tvUserName=0x7f0700a0;
-    public static final int uniform=0x7f0700a1;
-    public static final int up=0x7f0700a2;
-    public static final int useLogo=0x7f0700a3;
-    public static final int withText=0x7f0700a4;
-    public static final int wrap=0x7f0700a5;
-    public static final int wrap_content=0x7f0700a6;
+    public static final int tvUser=0x7f0700a0;
+    public static final int tvUserName=0x7f0700a1;
+    public static final int uniform=0x7f0700a2;
+    public static final int up=0x7f0700a3;
+    public static final int useLogo=0x7f0700a4;
+    public static final int withText=0x7f0700a5;
+    public static final int wrap=0x7f0700a6;
+    public static final int wrap_content=0x7f0700a7;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;

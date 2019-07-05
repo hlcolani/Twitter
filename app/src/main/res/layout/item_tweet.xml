@@ -17,10 +17,13 @@
 
     <TextView
         android:id="@+id/tvUserName"
-        android:layout_width="135dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
         android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvUser"
         app:layout_constraintEnd_toStartOf="@+id/tvTimestamp"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,10 +31,11 @@
         android:id="@+id/tvBody"
         android:layout_width="277dp"
         android:layout_height="116dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="36dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTimestamp" />
 
     <TextView
         android:id="@+id/tvTimestamp"
@@ -42,4 +46,12 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="119dp"
+        android:layout_height="30dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvBody"
+        app:layout_constraintEnd_toStartOf="@+id/tvTimestamp" />
 </android.support.constraint.ConstraintLayout>
